@@ -1,0 +1,63 @@
+{
+  "LOCALE": "en",
+  "messages": {
+    "home": "Home",
+    "service": "Service",
+    "service_name": "Service name",
+    "page_1": "Page #1",
+    "info_flash_message": "This is an info flash message.",
+    "overview": "Overview",
+    "page_header": "Page header",
+    "container_description": "Container description",
+    "container_header": "Container header",
+    "split_panel_header": "Split panel header"
+  },
+  "breadcrumbs": [
+    { "text": "Home", "href": "#" },
+    { "text": "Service", "href": "#" }
+  ],
+  "navigation": {
+    "header": {
+      "href": "#",
+      "text": "Service name"
+    },
+    "items": [
+      { "type": "link", "text": "Page #1", "href": "#" }
+    ]
+  },
+  "notifications": [
+    {
+      "type": "info",
+      "dismissible": true,
+      "content": "This is an info flash message.",
+      "id": "message_1"
+    }
+  ],
+  "tools": {
+    "header": "Overview",
+    "content": "HelpPanel"
+  },
+  "content": {
+    "header": {
+      "variant": "h1",
+      "info": {
+        "variant": "info",
+        "text": "Info"
+      },
+      "text": "Page header"
+    },
+    "container": {
+      "header": {
+        "variant": "h2",
+        "description": "Container description",
+        "text": "Container header"
+      },
+      "content": "contentPlaceholder"
+    }
+  },
+  "splitPanel": {
+    "header": "Split panel header",
+    "content": "Split panel content"
+  }
+}
+
